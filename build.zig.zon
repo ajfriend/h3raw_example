@@ -1,17 +1,12 @@
 .{
     .name = .h3raw_example,
-    .version = "0.0.0",
+    .version = "0.0.1",
     .minimum_zig_version = "0.15.2",
     .fingerprint = 0x4b1c24aeed28605d,
-    // This field is optional.
-    // Each dependency must either provide a `url` and `hash`, or a `path`.
-    // `zig build --fetch` can be used to fetch all dependencies of a package, recursively.
-    // Once all dependencies are fetched, `zig build` no longer requires
-    // internet connectivity.
     .dependencies = .{
         .h3raw = .{
-            .url = "https://github.com/ajfriend/h3raw/archive/refs/heads/main.tar.gz",
-            .hash = "h3raw-4.4.1-Nfv85Iw9AACqQrzhO7F3QoM5ECRvz-ilY5uJyJnGkdaK",
+            .url = "https://github.com/ajfriend/h3raw/archive/refs/tags/v4.4.1.tar.gz",
+            .hash = "h3raw-4.4.1-Nfv85JI9AACGaievL5IFhJkQG1bOc97Et13p5WdVSrG2",
         },
     },
     .paths = .{

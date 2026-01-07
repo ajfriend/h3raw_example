@@ -1,3 +1,9 @@
-zig init
+# h3raw Example
 
-zig fetch --save=h3raw https://github.com/ajfriend/h3raw/archive/refs/heads/main.tar.gz
+Example Zig project using [h3raw](https://github.com/ajfriend/h3raw).
+
+Run with:
+
+```
+zig build run
+```
